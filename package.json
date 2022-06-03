@@ -1,0 +1,19 @@
+{
+  "name": "CountMetadata_X64",
+  "bin": "app.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pkg . -t node16-macos-x64"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "pkg": "^5.7.0"
+  }
+}
